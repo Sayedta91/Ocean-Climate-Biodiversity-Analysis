@@ -1,6 +1,6 @@
 ## 🌊 Ocean Climate & Marine Biodiversity Analysis
 
-This project analyzes 9 years of global ocean data to explore how key climate variables—such as Sea Surface Temperature (SST), ocean acidity (pH), and marine heatwaves—impact marine biodiversity.
+This project analyzes 9 years of global ocean data to explore how key climate variables, such as Sea Surface Temperature (SST), ocean acidity (pH), and marine heatwaves, impact marine biodiversity.
 
 By combining environmental indicators with ecological data like coral bleaching severity and species counts, the analysis uncovers patterns that highlight the growing pressure on marine ecosystems.
 
@@ -71,7 +71,7 @@ The dataset contains global ocean observations over a 9-year period, including:
 
 ## 🛠 Tools & Technologies
 
-- Python (Pandas, Matplotlib, Seaborn)  
+- Python (Pandas, Matplotlib)  
 - Tableau (interactive dashboard development)  
 - Data cleaning & transformation  
 - Exploratory Data Analysis (EDA)  
