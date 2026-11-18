@@ -1,16 +1,18 @@
 ## 🌊 Ocean Climate & Marine Biodiversity Analysis
 
-This project analyzes 9 years of global ocean data to explore how key climate variables, such as Sea Surface Temperature (SST), ocean acidity (pH), and marine heatwaves, impact marine biodiversity.
+This project explores relationships between ocean climate conditions and marine biodiversity using a publicly available Kaggle dataset covering 2015-2023.
 
-By combining environmental indicators with ecological data like coral bleaching severity and species counts, the analysis uncovers patterns that highlight the growing pressure on marine ecosystems.
+The Analysis examples sea surface temperature (SST), ocean pH, marine heatwaves, coral bleaching severity and marine species counts across different ocean locations.
+
+Using Python for exploratory analysis and Tableau for interactive visualisation, the project aims to identify environmental patterns and communicate findings.
 
 ---
 
 ## 🎯 Objectives
 
-- Examine trends in ocean climate variables over time  
-- Investigate the relationship between temperature, acidification, and biodiversity  
-- Analyze the impact of marine heatwaves on coral bleaching and species diversity  
+- Explore changes in ocean climate indicators across the datasets nine year period
+- Investigate the relationship between sea surface temperature, ocean pH and marine species counts  
+- Develop an interactive Tableau dashboard to communicate analytics findings
 
 ---
 
@@ -27,10 +29,10 @@ A detailed breakdown of the analysis, including exploratory data analysis (EDA) 
 - **Rising temperatures reduce marine biodiversity**  
   A strong negative correlation (**-0.7**) between SST and species counts indicates that warmer waters are associated with lower biodiversity.
 
-- **Ocean acidification contributes to biodiversity loss**  
-  A positive correlation (**+0.3**) between pH and species counts suggests that more acidic conditions negatively impact marine life.
+- **Ocean pH and marine species counts**  
+  A positive correlation (**r ≈ +0.3**) was observed between ocean pH and marine species counts. This suggests that more acidic conditions negatively impact marine life.
 
-- **Marine heatwaves amplify ecosystem stress**  
+- **Marine heatwaves and environmental indicators**  
   Heatwave events are associated with higher temperatures, lower pH levels, and noticeable declines in species counts.
 
 ---
@@ -49,23 +51,25 @@ A detailed breakdown of the analysis, including exploratory data analysis (EDA) 
 
 ## 📁 Dataset
 
-The dataset contains global ocean observations over a 9-year period, including:
+The dataset covers 2015 - 2023 and includes environmental and biodiversity indicators such as:
 
 - Sea Surface Temperature (SST)  
 - Ocean pH levels  
 - Marine heatwave occurrences  
 - Coral bleaching severity  
-- Marine species counts  
+- Marine species counts
+- Geographic locations
 
-[Kaggle Dataset](https://www.kaggle.com/datasets/atharvasoundankar/shifting-seas-ocean-climate-and-marine-life-dataset)
+**Source**: [Shifting Seas: Ocean Climate & Marine Life Dataset](https://www.kaggle.com/datasets/atharvasoundankar/shifting-seas-ocean-climate-and-marine-life-dataset)
 
 ---
 
 ## ⚙️ Methodology
 
-- Cleaned and preprocessed multi-year ocean climate data  
-- Conducted exploratory data analysis (EDA)  
-- Created visualisations to examine relationships between variables  
+- **Data Exploration & Preparation**: Used Python and Pandas to examine the dataset, explore its structure and prepare variables for analysis
+- **Exploratory Data Analysis (EDA):** Investigated trends in sea surface temperature, ocean pH, marine heatwaves and biodiversity indicators across locations and years
+- **Correlation Analysis:** Examined relationships between environmental variables and marine species counts
+- **Data Visualisation:** Created plots using Matplotlib and Seaborn, alongside an interactive Tableau dashboard to communicate findings.
 
 ---
 
